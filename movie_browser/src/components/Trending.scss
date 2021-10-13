@@ -1,0 +1,42 @@
+.container1{
+    position: absolute;
+    width: 258px;
+    height: 359px;
+    left: 58px;
+    top: 369px;
+    
+}
+
+.trending h1{
+    color:white;
+}
+
+.container2{
+    height: 300px;
+    position: relative;
+    overflow:hidden;
+    
+
+    .photobanner{
+        position:absolute; 
+        top:0px; 
+        left:0px; 
+        overflow:hidden; 
+        white-space: nowrap;
+        animation: bannermove 10s linear infinite;
+    }
+    
+    .photobanner img {    
+        margin: 0 0.5em 
+      }
+      
+      @keyframes bannermove {
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(-50%, 0);
+        }
+    }
+
+}

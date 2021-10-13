@@ -1,0 +1,26 @@
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 375px;
+    height: 84px;
+    left: 0px;
+    top: 728px;
+    margin-top: 2rem;
+
+    .home{
+        color: #FF8F71;
+        font-size: 2rem;
+    }
+
+    .discover{
+        color: gray;
+        font-size: 2rem;
+    }
+
+    .detail{
+        color:gray;
+        font-size: 2rem;
+    }
+}

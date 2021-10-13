@@ -1,0 +1,54 @@
+.container1 {
+  position: absolute;
+  width: 258px;
+  height: 359px;
+  left: 58px;
+  top: 369px;
+}
+
+.trending h1 {
+  color: white;
+}
+
+.container2 {
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container2 .photobanner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-animation: bannermove 10s linear infinite;
+          animation: bannermove 10s linear infinite;
+}
+
+.container2 .photobanner img {
+  margin: 0 0.5em;
+}
+
+@-webkit-keyframes bannermove {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+}
+
+@keyframes bannermove {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+}
+/*# sourceMappingURL=Trending.css.map */
