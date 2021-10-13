@@ -1,70 +1,34 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
+  
 } from "react-router-dom";
 import './App.scss';
-import Title from './components/Title';
-import HomeImage from './components/HomeImage';
-import Trending from './components/Trending';
-import Nav from './components/Nav';
+import Detail from "./components/Detail";
+import Discover from "./components/Discover";
+import Home from './components/Home';
+
+
 
 function App() {
   return (
-  <body>
-  <div className="App">
-    <Router>
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/discover">Discover</Link>
-          </li>
-          <li>
-            <Link to="/detail">Detail</Link>
-          </li>
-        </ul>
-      </nav>
-
-      
+  <Router>
+    <div className="App">
       <Switch>
-        <Route path="/discover">
-          <Discover />
+        <Route exact path="/">
+          <Home/>
         </Route>
-        <Route path="/detail">
-          <Detail />
+        <Route exact path="/discover">
+          <Discover/>
         </Route>
-        <Route path="/">
-          <Home />
+        <Route exact path="/detail">
+          <Detail/>
         </Route>
       </Switch>
-    </div>
+    </div> 
   </Router>
-  <Title/>
-  <HomeImage/>
-  <Trending/>
-  <Nav/>
-</div>
-</body>
-);
-}
-
-function Home() {
-return <h2>Home</h2>;
-}
-
-function Discover() {
-return <h2>Discover</h2>;
-}
-
-function Detail() {
-return <h2>Detail</h2>;
-}
- 
-
+  )
+}   
 
 export default App;
