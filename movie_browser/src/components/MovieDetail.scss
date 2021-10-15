@@ -1,9 +1,93 @@
-.detailImg{
+.containerDetail{
 
-    position: absolute;
-    width: 375px;
-    height: 287px;
-    left: 0px;
-    top: 0px;
+    .detailImg{
+
+        position: absolute;
+        width: 375px;
+        height: 287px;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    .movieTitle{
+        position: absolute;
+        width: 265px;
+        height: 29px;
+        left: 24px;
+        top: 311px;
+
+        h1{
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+        
+    }
+
+    .k{
+        position: absolute;
+        width: 29px;
+        height: 22.04px;
+        left: 297px;
+        top: 316px;
+
+        p{
+            color:#FFFFFF;
+        }
+
+    }
+
+    .info{
+        position: absolute;
+        width: 200px;
+        height: 24px;
+        left: 19px;
+        top: 348px;
+
+        p{
+            color: #BCBCBC;
+        }
+    }
+
+    .release{
+        position: absolute;
+        width: 104px;
+        height: 46px;
+        left: 24px;
+        top: 403px;
+
+        h4{
+            
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+
+        p{
+            color: #BCBCBC;
+        }
+
+    }
+
+    .genre{
+        position: absolute;
+        width: 45px;
+        height: 17px;
+        left: 175px;
+        top: 403px;
+
+        h4{
+            
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+
+    }
+
+    
 
 }

@@ -1,8 +1,80 @@
-.detailImg {
+.containerDetail .detailImg {
   position: absolute;
   width: 375px;
   height: 287px;
   left: 0px;
   top: 0px;
+}
+
+.containerDetail .movieTitle {
+  position: absolute;
+  width: 265px;
+  height: 29px;
+  left: 24px;
+  top: 311px;
+}
+
+.containerDetail .movieTitle h1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.containerDetail .k {
+  position: absolute;
+  width: 29px;
+  height: 22.04px;
+  left: 297px;
+  top: 316px;
+}
+
+.containerDetail .k p {
+  color: #FFFFFF;
+}
+
+.containerDetail .info {
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  left: 19px;
+  top: 348px;
+}
+
+.containerDetail .info p {
+  color: #BCBCBC;
+}
+
+.containerDetail .release {
+  position: absolute;
+  width: 104px;
+  height: 46px;
+  left: 24px;
+  top: 403px;
+}
+
+.containerDetail .release h4 {
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.containerDetail .release p {
+  color: #BCBCBC;
+}
+
+.containerDetail .genre {
+  position: absolute;
+  width: 45px;
+  height: 17px;
+  left: 175px;
+  top: 403px;
+}
+
+.containerDetail .genre h4 {
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=MovieDetail.css.map */
