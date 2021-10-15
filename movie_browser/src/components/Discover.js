@@ -1,12 +1,21 @@
-import React from 'react'
+import React,{Fragment} from 'react';
+import Title from './Title';
+import SearchBar from './SearchBar';
+import Categories from './Categories';
+import Movies from './Movies';
 import Nav from './Nav';
+
 
 const Discover = () => {
     return(
-        <div>
-            <h1>Discover</h1>
+        <Fragment>
+            <Title/>
+            <SearchBar/>
+            <Categories/>
+            <Movies/>
             <Nav/>
-        </div>
+        </Fragment>
+        
     )
 }
 

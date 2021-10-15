@@ -1,0 +1,50 @@
+.movies .soul {
+  position: absolute;
+  width: 154px;
+  height: 215px;
+  left: 24px;
+  top: 202px;
+  margin-left: 0.8rem;
+  margin-top: 1.2rem;
+}
+
+.movies .knives {
+  position: absolute;
+  width: 154px;
+  height: 191px;
+  left: 197px;
+  top: 202px;
+}
+
+.movies .onward {
+  position: absolute;
+  width: 154px;
+  height: 191px;
+  left: 24px;
+  top: 437px;
+}
+
+.movies .mulan {
+  position: absolute;
+  width: 154px;
+  height: 212px;
+  left: 197px;
+  top: 413px;
+}
+
+.movies .girl {
+  position: absolute;
+  width: 154px;
+  height: 212px;
+  left: 24px;
+  top: 648px;
+}
+
+.movies .cards {
+  position: absolute;
+  width: 155px;
+  height: 210px;
+  left: 196px;
+  top: 648px;
+}
+/*# sourceMappingURL=Movies.css.map */

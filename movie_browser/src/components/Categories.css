@@ -1,0 +1,27 @@
+.categories {
+  margin: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+.categories a {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #E2E2E2;
+  text-decoration: none;
+  margin: 0.8rem;
+}
+
+.categories a:first-child {
+  color: #FF8F71;
+}
+/*# sourceMappingURL=Categories.css.map */

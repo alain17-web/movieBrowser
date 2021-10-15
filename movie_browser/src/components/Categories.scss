@@ -1,0 +1,28 @@
+.categories{
+
+    margin: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    
+
+    a{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.1rem;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+        color: #E2E2E2;
+        text-decoration: none;
+        margin: 0.8rem;
+        
+        
+    }
+
+    a:first-child{
+        color: #FF8F71;
+    }
+
+    
+}

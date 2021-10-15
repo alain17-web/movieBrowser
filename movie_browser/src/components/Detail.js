@@ -1,11 +1,12 @@
 import React from 'react';
+import MovieDetail from './MovieDetail';
 import Nav from './Nav';
 
 
 const Detail = () => {
     return ( 
         <div>
-            <h1>Detail</h1>
+            <MovieDetail/>
             <Nav/>
         </div>
         
