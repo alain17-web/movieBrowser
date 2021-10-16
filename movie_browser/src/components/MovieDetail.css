@@ -53,7 +53,7 @@
   width: 104px;
   height: 46px;
   left: 24px;
-  top: 403px;
+  top: 393px;
 }
 
 .containerDetail .release h4 {
@@ -70,11 +70,87 @@
   width: 45px;
   height: 17px;
   left: 175px;
-  top: 403px;
+  top: 393px;
 }
 
 .containerDetail .genre h4 {
   letter-spacing: 0.02em;
   color: #FFFFFF;
+}
+
+.containerDetail .genre .genres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.containerDetail .genre .genres p {
+  display: inline-block;
+  color: #BCBCBC;
+  border: 1px solid gray;
+  width: 65px;
+  height: 25px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.containerDetail .synopsis {
+  position: absolute;
+  width: 68px;
+  height: 17px;
+  left: 24px;
+  top: 500px;
+}
+
+.containerDetail .synopsis h4 {
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.containerDetail .synopsis p {
+  width: 327px;
+  height: 70px;
+  left: 24px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #BCBCBC;
+}
+
+.containerDetail .synopsis span {
+  color: #FFFFFF;
+}
+
+.containerDetail .related {
+  position: absolute;
+  width: 125px;
+  left: 24px;
+  top: 625px;
+}
+
+.containerDetail .related h4 {
+  color: #FFFFFF;
+}
+
+.containerDetail .related .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.containerDetail .related .images figure {
+  margin: 0;
+  padding: 0;
+}
+
+.containerDetail .related .images figure figcaption {
+  font-size: xx-small;
 }
 /*# sourceMappingURL=MovieDetail.css.map */
