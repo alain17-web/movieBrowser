@@ -12,6 +12,8 @@
   margin-top: 2rem;
   padding-top: 0.7rem;
   background-color: #15141F;
+  position: fixed;
+  bottom: 0;
 }
 
 .nav .is-active {

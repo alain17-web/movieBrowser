@@ -2,8 +2,13 @@
   margin-top: 1.5rem;
   position: absolute;
   width: 327px;
-  height: 191px;
+  height: 216px;
   left: 24px;
   top: 94px;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
 }
 /*# sourceMappingURL=HomeImage.css.map */

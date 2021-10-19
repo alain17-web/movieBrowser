@@ -12,7 +12,9 @@ const Discover = () => {
             <Title/>
             <SearchBar/>
             <Categories/>
-            <Movies/>
+            <div className="moviesContainer">
+                <Movies/>
+            </div>
             <Nav/>
         </Fragment>
         

@@ -11,7 +11,7 @@ const Nav = () => {
         <div className="nav">
             <NavLink to="./" activeClassName="is-active" exact={true} ><FaHome/></NavLink>
             <NavLink to="./discover" activeClassName="is-active" exact={true}><IoSearchCircle/></NavLink>
-            <NavLink to="./detail" activeClassName="is-active" exact={true}><FaUser/></NavLink>
+            <NavLink to="./profile" activeClassName="is-active" exact={true}><FaUser/></NavLink>
         </div>
     )
 }

@@ -1,50 +1,23 @@
-.movies .soul {
-  position: absolute;
+.moviesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.moviesContainer .movies {
+  width: 40vw;
+  padding: 5px 0.5rem 5px 0.5rem;
+}
+
+.moviesContainer .movies img {
   width: 154px;
   height: 215px;
-  left: 24px;
-  top: 202px;
-  margin-left: 0.8rem;
-  margin-top: 1.2rem;
-}
-
-.movies .knives {
-  position: absolute;
-  width: 154px;
-  height: 191px;
-  left: 197px;
-  top: 202px;
-}
-
-.movies .onward {
-  position: absolute;
-  width: 154px;
-  height: 191px;
-  left: 24px;
-  top: 437px;
-}
-
-.movies .mulan {
-  position: absolute;
-  width: 154px;
-  height: 212px;
-  left: 197px;
-  top: 413px;
-}
-
-.movies .girl {
-  position: absolute;
-  width: 154px;
-  height: 212px;
-  left: 24px;
-  top: 648px;
-}
-
-.movies .cards {
-  position: absolute;
-  width: 155px;
-  height: 210px;
-  left: 196px;
-  top: 648px;
+  margin: 0 1rem 5px 1rem;
 }
 /*# sourceMappingURL=Movies.css.map */

@@ -18,7 +18,7 @@ const HomeImage = () => {
     }*/
      
 
-    /*useEffect(() => {
+    useEffect(() => {
       getUpcoming.then(response => {
           setData(response.data.results);
           
@@ -36,12 +36,12 @@ const HomeImage = () => {
             )}
         )}
         </div>
-    )*/
-    return (
+    )
+    /*return (
         <div className="container">
             <img src={HomeImg} alt="HomeImage" />
         </div>
-    )
+    )*/
 }
 export default HomeImage;
 

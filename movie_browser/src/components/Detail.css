@@ -6,6 +6,11 @@
   top: 0px;
 }
 
+.containerDetail a {
+  color: white;
+  font-size: xx-large;
+}
+
 .containerDetail .movieTitle {
   position: absolute;
   width: 265px;
@@ -153,4 +158,4 @@
 .containerDetail .related .images figure figcaption {
   font-size: xx-small;
 }
-/*# sourceMappingURL=MovieDetail.css.map */
+/*# sourceMappingURL=Detail.css.map */
