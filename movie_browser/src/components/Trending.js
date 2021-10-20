@@ -1,5 +1,4 @@
-import React,{useEffect,useState,Component} from 'react'
-import trending from './trending.png';
+import React,{useEffect,useState} from 'react'
 import './Trending.scss';
 import axios from 'axios';
 import Carousel from 'react-elastic-carousel';
@@ -28,7 +27,7 @@ const Trending = (props) => {
         setData(moviesData.data.results)
         }
         fetchMovie()
-    })
+    },[])
 
     function SlideShow(){
         
@@ -56,42 +55,7 @@ const Trending = (props) => {
     )
 
 
-    /*return (
-        <div className="container1">
-
-            <div className="trending">
-                <h1>Trending</h1>
-            </div>
-            <div className="carousel">
-                <div className="container2">
-                    {data.map((movie) => {
-                       return(
-                            
-                        <div className="photobanner">
-                            <img src={"https://image.tmdb.org/t/p/w400" + movie.poster_path} alt="trending" />
-                        </div>
-                        )}
-                    )}
-                </div>
-            </div>
-        </div>
-        
-    )*/
-    /*return (
-        <div className="container1">
-
-            <div className="trending">
-                <h1>Trending</h1>
-            </div>
-            <div className="carousel">
-                <div className="container2">
-                    <div className="photobanner">
-                        <img src={trending}alt="trending" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    )*/
+    
 }
 
 export default Trending;

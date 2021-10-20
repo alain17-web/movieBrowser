@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react';
-import HomeImg from './homeImage.png';
+
 import './HomeImage.scss';
 import axios from 'axios';
 const getImage = (path)=> `https://image.tmdb.org/t/p/w500/${path}`;
@@ -13,16 +13,14 @@ const HomeImage = () => {
     const api = axios.create({baseURL: BASE_URL});
     const getUpcoming = api.get("movie/upcoming",{params:{api_key}});
 
-    /*async function getUpcoming(url) {
-        return await axios.get(BASE_URL + url + api_key + params)
-    }*/
+    
      
 
     useEffect(() => {
       getUpcoming.then(response => {
           setData(response.data.results);
           
-      });
+      },[]);
        
     });
 
@@ -30,18 +28,14 @@ const HomeImage = () => {
         <div>
         {data.map((movie) => {
             return(
-            <div className="container">
+            <div className="container" key={movie.id}>
                 <img src={getImage(movie.poster_path)} alt="HomeImg" />
             </div>
             )}
         )}
         </div>
     )
-    /*return (
-        <div className="container">
-            <img src={HomeImg} alt="HomeImage" />
-        </div>
-    )*/
+    
 }
 export default HomeImage;
 
