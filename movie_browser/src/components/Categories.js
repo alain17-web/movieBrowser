@@ -25,6 +25,8 @@ const Categories = () => {
         fetchGenre()
     },[])
 
+    
+
     return ( 
         <div className="categories">
 

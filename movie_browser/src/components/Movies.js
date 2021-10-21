@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import './Movies.scss';
 import axios from 'axios';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const api_key="api_key=c573d649c7d159c69c75dfb1da627bcf";
 const BASE_URL = "https://api.themoviedb.org/3/";
@@ -36,9 +36,9 @@ const Movies = () => {
                 
                
                 <div className="movies" key={movie.id}>
-                    <NavLink to="./detail" exact={true}>
+                    <Link to={"./detail/" + movie.id} exact>
                         <img src={"https://image.tmdb.org/t/p/w400" + movie.poster_path} alt={movie.title} key={movie.id} />
-                    </NavLink>
+                    </Link>
                 </div>
                 
             )
