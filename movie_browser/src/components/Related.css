@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  top: 600px;
+  left: 24px;
+}
+
+.container h4 {
+  margin-top: 2.5rem;
+  color: #FFFFFF;
+}
+
+.container .images {
+  margin-bottom: 1rem;
+}
+
+.container .images img {
+  position: absolute;
+  top: 2rem;
+  left: 24px;
+  width: 142px;
+  height: 146px;
+}
+
+.container .images p {
+  position: absolute;
+  top: 10rem;
+  width: 142px;
+  color: #BCBCBC;
+}
+/*# sourceMappingURL=Related.css.map */

@@ -36,7 +36,7 @@ const Movies = () => {
                 
                
                 <div className="movies" key={movie.id}>
-                    <Link to={"./detail/" + movie.id} exact>
+                    <Link to={"./detail/" + movie.id} exact={true}>
                         <img src={"https://image.tmdb.org/t/p/w400" + movie.poster_path} alt={movie.title} key={movie.id} />
                     </Link>
                 </div>

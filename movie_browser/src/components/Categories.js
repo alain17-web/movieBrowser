@@ -20,6 +20,7 @@ const Categories = () => {
     useEffect(() => {
         async function fetchGenre(){
             const genresData = await getGenres(url)
+            console.log(genresData)
             setData(genresData.data.genres)
         }
         fetchGenre()

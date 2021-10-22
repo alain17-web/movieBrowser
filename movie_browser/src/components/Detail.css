@@ -45,7 +45,7 @@
 .movie .release {
   position: absolute;
   width: 104px;
-  height: 46px;
+  height: 146px;
   left: 24px;
   top: 393px;
   margin-top: 1.2rem;
@@ -57,7 +57,60 @@
 }
 
 .movie .release p {
+  position: absolute;
+  left: 0.5rem;
+  top: 10px;
   color: #BCBCBC;
+}
+
+.movie .genre {
+  position: absolute;
+  width: 45px;
+  height: 17px;
+  left: 175px;
+  top: 393px;
+  margin-top: 1.2rem;
+}
+
+.movie .genre h4 {
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.movie .genre p {
+  position: absolute;
+  top: 10px;
+  color: #BCBCBC;
+}
+
+.movie .synopsis {
+  position: absolute;
+  width: 68px;
+  height: 17px;
+  left: 24px;
+  top: 500px;
+}
+
+.movie .synopsis h4 {
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.movie .synopsis p {
+  position: absolute;
+  top: 10px;
+  width: 327px;
+  height: 70px;
+  margin-right: 1.2rem;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #BCBCBC;
+}
+
+.movie .synopsis span {
+  color: #FFFFFF;
+  font-size: medium;
 }
 
 /*.movieTitle{
