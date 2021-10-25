@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom';
 import './Related.scss'
+import Carousel from 'react-elastic-carousel';
 
 
 const api_key="api_key=c573d649c7d159c69c75dfb1da627bcf";
@@ -29,20 +30,26 @@ const Related = () => {
     },[])
 
     
+    
     return ( 
-        <div className="container">
+        
+
+        <div className="related">
             <h4>Related movies</h4>
         
             {data.map(movie =>{
-           
-            return (
-                <div className="images" key={movie.id}>
-                    <img src={"https://image.tmdb.org/t/p/w400" + movie.poster_path} alt={movie.title} />
-                    <p>{movie.title}</p>
-                </div>
-            )
-        })}
-    </div>
+            
+           console.log(data)
+                return (
+                
+                    <div className="images" key={movie.id}>
+                        <img src={"https://image.tmdb.org/t/p/w400" + movie.poster_path} alt={movie.title} />
+                        <p>{movie.title}</p>
+                    </div>
+                
+                )
+            })}
+        </div>
     )
    
 }

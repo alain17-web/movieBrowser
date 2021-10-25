@@ -1,29 +1,30 @@
-.container {
+.related {
   position: absolute;
-  top: 600px;
+  width: 360px;
+  height: 160px;
+  top: 620px;
   left: 24px;
+  margin-top: 1rem;
 }
 
-.container h4 {
+.related h4 {
   margin-top: 2.5rem;
   color: #FFFFFF;
 }
 
-.container .images {
-  margin-bottom: 1rem;
+.related .images {
+  margin-top: 1.5rem;
 }
 
-.container .images img {
-  position: absolute;
-  top: 2rem;
-  left: 24px;
+.related .images img {
   width: 142px;
   height: 146px;
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
 }
 
-.container .images p {
-  position: absolute;
-  top: 10rem;
+.related .images p {
+  top: 12rem;
   width: 142px;
   color: #BCBCBC;
 }

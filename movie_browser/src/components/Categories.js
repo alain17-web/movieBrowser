@@ -32,6 +32,7 @@ const Categories = () => {
         <div className="categories">
 
         {data.map(genres => {
+            
             return(
             
                 <a href="#" key={genres.id}>{genres.name}</a>

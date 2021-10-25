@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react';
+import React,{useEffect,useState,Fragment} from 'react';
 import './Detail.scss';
 import { FiClock } from "react-icons/fi";
 import { AiOutlineStar } from "react-icons/ai";
@@ -67,7 +67,6 @@ const Detail = () => {
                             <p>{data.overview} <span>Read more...</span></p>
                         </div>
                         <Related/>
-                        
                     </div>
                 
                 
