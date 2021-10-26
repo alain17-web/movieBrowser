@@ -1,5 +1,4 @@
 .movie img {
-  position: absolute;
   width: 375px;
   height: 287px;
   left: 0px;
@@ -33,22 +32,21 @@
 }
 
 .movie p {
-  position: absolute;
   width: 200px;
   height: 24px;
   left: 19px;
   top: 348px;
   color: #BCBCBC;
-  padding-top: 1.2rem;
+  padding-top: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 .movie .release {
   position: absolute;
   width: 104px;
-  height: 146px;
+  height: 17px;
   left: 24px;
   top: 393px;
-  margin-top: 1.2rem;
 }
 
 .movie .release h4 {
@@ -69,7 +67,6 @@
   height: 17px;
   left: 175px;
   top: 393px;
-  margin-top: 1.2rem;
 }
 
 .movie .genre h4 {
@@ -113,161 +110,4 @@
   color: #FFFFFF;
   font-size: medium;
 }
-
-/*.movieTitle{
-        position: absolute;
-        width: 265px;
-        height: 29px;
-        left: 24px;
-        top: 311px;
-
-        h1{
-            font-family: Lato;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 29px;
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-        }
-        
-    }
-
-    .k{
-        position: absolute;
-        width: 29px;
-        height: 22.04px;
-        left: 297px;
-        top: 316px;
-
-        p{
-            color:#FFFFFF;
-        }
-
-    }
-
-    .info{
-        position: absolute;
-        width: 200px;
-        height: 24px;
-        left: 19px;
-        top: 348px;
-
-        p{
-            color: #BCBCBC;
-        }
-    }
-
-    .release{
-        position: absolute;
-        width: 104px;
-        height: 46px;
-        left: 24px;
-        top: 393px;
-
-        h4{
-            
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-        }
-
-        p{
-            color: #BCBCBC;
-        }
-
-    }
-
-    .genre{
-        position: absolute;
-        width: 45px;
-        height: 17px;
-        left: 175px;
-        top: 393px;
-
-        h4{
-            
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-        }
-
-        .genres{
-
-            display: flex;
-
-            p{
-                display: inline-block;
-                color: #BCBCBC;
-                border: 1px solid gray;
-                width: 65px;
-                height:25px;
-                padding-left: 2px;
-                padding-right: 2px;;
-                text-align: center;
-                border-radius: 12px;
-                margin-right: 1rem;
-                
-            }
-        }
-
-    }
-    .synopsis{
-        position: absolute;
-        width: 68px;
-        height: 17px;
-        left: 24px;
-        top: 500px;
-
-        h4{
-            
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-
-        }
-
-        p{
-            
-            width: 327px;
-            height: 70px;
-            left: 24px;
-            font-size: 12px;
-            line-height: 18px;
-            letter-spacing: 0.02em;
-            color: #BCBCBC; 
-        }
-
-        span{
-            color: #FFFFFF;
-        }
-    }
-
-    .related{
-
-        position: absolute;
-        width: 125px;
-        //height: 17px;
-        left: 24px;
-        top: 625px;
-
-        h4{
-            color: #FFFFFF;
-        }
-
-        .images{
-            display:flex;
-            flex-direction: row;
-            
-            figure{
-                margin: 0;
-                padding: 0;
-
-                figcaption{
-                    font-size: xx-small;
-                }
-            }
-        }
-    }
-
-    
-
-}*/
 /*# sourceMappingURL=Detail.css.map */

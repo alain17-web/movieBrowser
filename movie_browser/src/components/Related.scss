@@ -2,23 +2,28 @@
 
     position: absolute;
     width: 360px;
-    height: 160px;
+    height: 320px;
     top: 620px;
-    left: 24px;
+    //left: 24px;
     margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    //overflow: hidden;
     
     h4{
-        margin-top: 2.5rem;
+        position: absolute;
         color: #FFFFFF;
+        margin-left: 24px;
+        padding-bottom: 1rem;
     }
 
 
     .images{
 
-        margin-top: 1.5rem;
+        margin-top: 1.8rem;
         
-    
-        
+        padding: 1rem;
+
         img{
             
             //top: 2rem;
@@ -26,6 +31,7 @@
             width: 142px;
             height:146px;
             margin-top: 1.5rem;
+            
             padding-top: 1.2rem;
             
         }

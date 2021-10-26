@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom';
 import './Related.scss'
-import Carousel from 'react-elastic-carousel';
+
 
 
 const api_key="api_key=c573d649c7d159c69c75dfb1da627bcf";
@@ -39,11 +39,11 @@ const Related = () => {
         
             {data.map(movie =>{
             
-           console.log(data)
+           console.log(movie)
                 return (
                 
                     <div className="images" key={movie.id}>
-                        <img src={"https://image.tmdb.org/t/p/w400" + movie.poster_path} alt={movie.title} />
+                        <img src={"https://image.tmdb.org/t/p/w400" + movie.poster_path} alt={movie.title}/>
                         <p>{movie.title}</p>
                     </div>
                 
