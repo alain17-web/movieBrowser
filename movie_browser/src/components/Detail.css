@@ -34,11 +34,10 @@
 .movie p {
   width: 200px;
   height: 24px;
-  left: 19px;
-  top: 348px;
   color: #BCBCBC;
   padding-top: 2.5rem;
   margin-top: 1.5rem;
+  margin-left: 24px;
 }
 
 .movie .release {
