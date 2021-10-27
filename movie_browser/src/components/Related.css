@@ -1,7 +1,6 @@
 .related {
   position: absolute;
   width: 360px;
-  height: 320px;
   top: 620px;
   margin-top: 1rem;
   display: -webkit-box;
@@ -11,6 +10,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  overflow: hidden;
 }
 
 .related h4 {
@@ -21,19 +21,19 @@
 }
 
 .related .images {
-  margin-top: 1.8rem;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
 .related .images img {
   width: 142px;
   height: 146px;
-  margin-top: 1.5rem;
   padding-top: 1.2rem;
+  border-radius: 24px;
 }
 
-.related .images p {
-  top: 12rem;
+.related .images p.smallTitle {
+  margin-top: 0.2rem;
   width: 142px;
   color: #BCBCBC;
 }

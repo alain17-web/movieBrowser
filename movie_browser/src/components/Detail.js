@@ -1,4 +1,4 @@
-import React,{useEffect,useState,Fragment} from 'react';
+import React,{useEffect,useState} from 'react';
 import './Detail.scss';
 import { FiClock } from "react-icons/fi";
 import { AiOutlineStar } from "react-icons/ai";
@@ -6,6 +6,8 @@ import { useParams,NavLink } from 'react-router-dom';
 import { MdArrowBackIos } from "react-icons/md";
 import axios from 'axios';
 import Related from '../components/Related';
+import { FaGenderless } from 'react-icons/fa';
+import Movies from './Movies';
 
 const api_key="api_key=c573d649c7d159c69c75dfb1da627bcf";
 const BASE_URL = "https://api.themoviedb.org/3/";
@@ -37,15 +39,20 @@ const Detail = () => {
     },[])
 
     
+              
+            
+        
+   
+    
 
     
-    /*console.log(data.genres[0].name)*/
+    
 
     
     //const text = data.overview.substr(0,200) +  '\u2026'
         
     //console.log(data.overview.substr(0,150))
-
+    
     
     return (
                
@@ -60,7 +67,15 @@ const Detail = () => {
                         </div>
                         <div className="genre">
                             <h4>Genre</h4>
+                            {/*{data.genres.map(genre => {
+                                return (
+                                    <p key={genre.id}>{genre.name}</p>
+                                )
+                            })}*/}
+                            
+                                    
                             <p>action</p>
+                            
                         </div>
                         <div className="synopsis">
                             <h4>Synopsis</h4>

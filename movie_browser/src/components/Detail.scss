@@ -1,5 +1,7 @@
 .movie{
 
+    
+
     img{
 
     
@@ -35,6 +37,9 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
     }
+
+    
+    
     p{
         //position: absolute;
         width: 200px;
@@ -71,6 +76,8 @@
 
     .genre{
         position: absolute;
+        display: flex;
+        flex-direction: row;
         width: 45px;
         height: 17px;
         left: 175px;

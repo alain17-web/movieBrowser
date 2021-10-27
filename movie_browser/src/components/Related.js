@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom';
 import './Related.scss'
+import Carousel from 'react-elastic-carousel'
 
 
 
@@ -29,6 +30,8 @@ const Related = () => {
         fetchSimilar()
     },[])
 
+   
+
     
     
     return ( 
@@ -36,22 +39,32 @@ const Related = () => {
 
         <div className="related">
             <h4>Related movies</h4>
-        
+            <Carousel
+                showArrows={false}
+                enableAutoPlay={true}
+                autoPlaySpeed={3000}>
+            
             {data.map(movie =>{
             
-           console.log(movie)
+           
                 return (
-                
+                    
+                    
                     <div className="images" key={movie.id}>
+                        
                         <img src={"https://image.tmdb.org/t/p/w400" + movie.poster_path} alt={movie.title}/>
-                        <p>{movie.title}</p>
+                        <p className="smallTitle">{movie.title}</p>
+                        
                     </div>
-                
+
+                   
                 )
             })}
+            </Carousel>
         </div>
     )
-   
+    
 }
  
 export default Related;
+
