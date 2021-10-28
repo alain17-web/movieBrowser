@@ -42,7 +42,22 @@ const Detail = () => {
               
             
         
-   
+   function Genre (){
+    if(data.length !==0){
+    return(
+    data.genres.map(genre => {
+        return (
+            <p key={genre.id}>{genre.name}</p>
+        )
+    }))
+    }else{
+        return(
+        <div>
+            <p>loader</p>
+        </div>
+        )
+    }
+   }
     
 
     
@@ -67,11 +82,7 @@ const Detail = () => {
                         </div>
                         <div className="genre">
                             <h4>Genre</h4>
-                            {/*{data.genres.map(genre => {
-                                return (
-                                    <p key={genre.id}>{genre.name}</p>
-                                )
-                            })}*/}
+                            <Genre/>
                             
                                     
                             <p>action</p>
