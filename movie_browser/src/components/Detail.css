@@ -76,13 +76,14 @@
 }
 
 .movie .genre h4 {
+  position: absolute;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
 
-.movie .genre p {
-  position: absolute;
-  top: 10px;
+.movie .genre h5 {
+  padding: 0.5rem;
+  margin-top: 4rem;
   color: #BCBCBC;
 }
 
